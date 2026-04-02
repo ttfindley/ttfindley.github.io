@@ -19,24 +19,24 @@ title: Home
     <a href="/big_board.html" style="text-decoration:none;">
       <div class="card">
         <div class="card-sport nfl">Football Draft</div>
-        <div class="card-title">2025 Big Board</div>
+        <div class="card-title">2027 Big Board</div>
         <div class="card-desc">Full prospect rankings with physical measurements, position grades, and draft projections.</div>
         <div class="card-arrow">→</div>
       </div>
     </a>
-    <a href="/nfl.html" style="text-decoration:none;">
+    <a href="/research.html" style="text-decoration:none;">
       <div class="card">
         <div class="card-sport nfl">Football Analytics</div>
-        <div class="card-title">Position Rankings</div>
-        <div class="card-desc">Tier-based rankings by position group with scouting notes and film-based grades.</div>
+        <div class="card-title">Weather Impact on Performance</div>
+        <div class="card-desc">How weather conditions affect NFL performance metrics across varying stakeholders.</div>
         <div class="card-arrow">→</div>
       </div>
     </a>
-    <a href="/mma.html" style="text-decoration:none;">
+    <a href="/research.html" style="text-decoration:none;">
       <div class="card">
-        <div class="card-sport mma">MMA</div>
-        <div class="card-title">Fighter Analysis</div>
-        <div class="card-desc">Striking efficiency, grappling metrics, and style matchup modeling for active fighters.</div>
+        <div class="card-sport mma">Research</div>
+        <div class="card-title">Austin Real Estate Project</div>
+        <div class="card-desc">Modeling techniques to evaluate home value across the Austin metro area.</div>
         <div class="card-arrow">→</div>
       </div>
     </a>

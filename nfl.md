@@ -6,7 +6,7 @@ title: Football
 <div class="hero" style="padding:48px 40px 40px">
   <div class="hero-label">Pro & College Football</div>
   <h1 class="hero-title" style="font-size:36px">Football Analytics</h1>
-  <p class="hero-sub">Data-driven analysis covering the NFL Draft, college football, and performance modeling.</p>
+  <p class="hero-sub">Data-driven analysis covering the NFL, college football, UFL and IFL.</p>
 </div>
 
 <div class="section">
@@ -18,7 +18,7 @@ title: Football
     <a href="/big_board.html" style="text-decoration:none;">
       <div class="card">
         <div class="card-sport nfl">NFL Draft</div>
-        <div class="card-title">2025 Football Draft Big Board</div>
+        <div class="card-title">2027 Football Draft Big Board</div>
         <div class="card-desc">Full prospect rankings with physical measurements, combine data, position grades, and draft projections.</div>
         <div class="card-arrow">→</div>
       </div>
@@ -34,8 +34,8 @@ title: Football
   <div class="cards-grid">
     <div class="card" style="opacity:0.5">
       <div class="card-sport nfl">College Football</div>
-      <div class="card-title">Big Ten Team Previews</div>
-      <div class="card-desc">Film-based breakdowns and analytical previews for every Big Ten program.</div>
+      <div class="card-title">2026 Big Ten Football Preview</div>
+      <div class="card-desc">Analytical previews for every Big Ten program.</div>
     </div>
     <div class="card" style="opacity:0.5">
       <div class="card-sport nfl">Coming Soon</div>
