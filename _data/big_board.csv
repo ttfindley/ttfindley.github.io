@@ -1,0 +1,51 @@
+rank,name,position,school,height,weight,age,hand,arm,wingspan,forty,ten_split,vertical,broad,three_cone,shuttle,bench,ras,profile
+1,Arch Manning,QB,Texas,"6'4""",219,--,--,--,--,--,--,--,--,--,--,--,--,/players/arch-manning.html
+2,Dante Moore,QB,Oregon,"6'3""",206,--,--,--,--,--,--,--,--,--,--,--,--,/players/dante-moore.html
+3,Jeremiah Smith,WR,Ohio State,"6'3""",223,--,--,--,--,--,--,--,--,--,--,--,--,/players/jeremiah-smith.html
+4,DJ Lagway,QB,Baylor,"6'3""",247,--,--,--,--,--,--,--,--,--,--,--,--,/players/dj-lagway.html
+5,Julian Sayin,QB,Ohio State,"6'1""",208,--,--,--,--,--,--,--,--,--,--,--,--,/players/julian-sayin.html
+6,Ryan Williams,WR,Alabama,"6'0""",178,--,--,--,--,--,--,--,--,--,--,--,--,/players/ryan-williams.html
+7,Colin Simmons,EDGE,Texas,"6'3""",240,--,--,--,--,--,--,--,--,--,--,--,--,/players/colin-simmons.html
+8,Dylan Stewart,EDGE,South Carolina,"6'5""",245,--,--,--,--,--,--,--,--,--,--,--,--,/players/dylan-stewart.html
+9,Leonard Moore,CB,Notre Dame,"6'2""",195,--,--,--,--,--,--,--,--,--,--,--,--,/players/leonard-moore.html
+10,Jordan Ross,DL,LSU,"6'5""",245,--,--,--,--,--,--,--,--,--,--,--,--,/players/jordan-ross.html
+11,David Stone,DL,Oklahoma,"6'3""",310,--,--,--,--,--,--,--,--,--,--,--,--,/players/david-stone.html
+12,OJ Frederique Jr.,CB,Miami (FL),"6'0""",180,--,--,--,--,--,--,--,--,--,--,--,--,/players/oj-frederique-jr.html
+13,A'Mauri Washington,DL,Oregon,"6'3""",330,--,--,--,--,--,--,--,--,--,--,--,--,/players/amauri-washington.html
+14,Cam Coleman,WR,Texas,"6'3""",201,--,--,--,--,--,--,--,--,--,--,--,--,/players/cam-coleman.html
+15,Trevor Goosby,OT,Texas,"6'7""",312,--,--,--,--,--,--,--,--,--,--,--,--,/players/trevor-goosby.html
+16,Ahmad Hardy,RB,Missouri,"5'10""",206,--,--,--,--,--,--,--,--,--,--,--,--,/players/ahmad-hardy.html
+17,Koi Perich,S,Oregon,"6'1""",200,--,--,--,--,--,--,--,--,--,--,--,--,/players/koi-perich.html
+18,Ellis Robinson IV,CB,Georgia,"6'0""",180,--,--,--,--,--,--,--,--,--,--,--,--,/players/ellis-robinson-iv.html
+19,Jayden Jackson,DL,Oklahoma State,"6'2""",322,--,--,--,--,--,--,--,--,--,--,--,--,/players/jayden-jackson.html
+20,Justin Scott,DL,Miami (FL),"6'4""",298,--,--,--,--,--,--,--,--,--,--,--,--,/players/justin-scott.html
+21,Ashton Hampton,CB,Clemson,"6'2""",200,--,--,--,--,--,--,--,--,--,--,--,--,/players/ashton-hampton.html
+22,Nate Frazier,RB,Georgia,"5'10""",210,--,--,--,--,--,--,--,--,--,--,--,--,/players/nate-frazier.html
+23,KJ Bolden,S,Georgia,"6'0""",185,--,--,--,--,--,--,--,--,--,--,--,--,/players/kj-bolden.html
+24,Sammy Brown,LB,Clemson,"6'2""",235,--,--,--,--,--,--,--,--,--,--,--,--,/players/sammy-brown.html
+25,Eli Bowen,CB,Oklahoma,"5'9""",183,--,--,--,--,--,--,--,--,--,--,--,--,/players/eli-bowen.html
+26,Maraad Watson,DL,Texas,"6'3""",313,--,--,--,--,--,--,--,--,--,--,--,--,/players/maraad-watson.html
+27,Zabien Brown,CB,Alabama,"6'0""",192,--,--,--,--,--,--,--,--,--,--,--,--,/players/zabien-brown.html
+28,Elijah Rushing,EDGE,Oregon,"6'6""",275,--,--,--,--,--,--,--,--,--,--,--,--,/players/elijah-rushing.html
+29,LaNorris Sellers,QB,South Carolina,"6'3""",240,--,--,--,--,--,--,--,--,--,--,--,--,/players/lanorris-sellers.html
+30,Jamari Johnson,TE,Oregon,"6'5""",257,--,--,--,--,--,--,--,--,--,--,--,--,/players/jamari-johnson.html
+31,Jordan Seaton,OT,LSU,"6'5""",330,--,--,--,--,--,--,--,--,--,--,--,--,/players/jordan-seaton.html
+32,Marcus Neal Jr.,S,Penn State,"6'1""",215,--,--,--,--,--,--,--,--,--,--,--,--,/players/marcus-neal-jr.html
+33,Matayo Uiagalelei,EDGE,Oregon,"6'5""",272,--,--,--,--,--,--,--,--,--,--,--,--,/players/matayo-uiagalelei.html
+34,Carter Smith,OT,Indiana,"6'5""",308,--,--,--,--,--,--,--,--,--,--,--,--,/players/carter-smith.html
+35,Austin Siereveld,OT,Ohio State,"6'5""",325,--,--,--,--,--,--,--,--,--,--,--,--,/players/austin-siereveld.html
+36,Kelley Jones,CB,Mississippi State,"6'4""",195,--,--,--,--,--,--,--,--,--,--,--,--,/players/kelley-jones.html
+37,Damon Wilson Jr.,EDGE,Miami (FL),"6'4""",250,--,--,--,--,--,--,--,--,--,--,--,--,/players/damon-wilson-jr.html
+38,Kenyatta Jackson,EDGE,Ohio State,"6'6""",265,--,--,--,--,--,--,--,--,--,--,--,--,/players/kenyatta-jackson.html
+39,Kade Pieper,IOL,Iowa,"6'4""",290,--,--,--,--,--,--,--,--,--,--,--,--,/players/kade-pieper.html
+40,Mario Craver,WR,Texas A&M,"5'9""",165,--,--,--,--,--,--,--,--,--,--,--,--,/players/mario-craver.html
+41,Quincy Rhodes Jr.,EDGE,Arkansas,"6'6""",276,--,--,--,--,--,--,--,--,--,--,--,--,/players/quincy-rhodes-jr.html
+42,Drew Mestemaker,QB,Oklahoma State,"6'4""",211,--,--,--,--,--,--,--,--,--,--,--,--,/players/drew-mestemaker.html
+43,Amare Ferrell,S,Indiana,"6'2""",200,--,--,--,--,--,--,--,--,--,--,--,--,/players/amare-ferrell.html
+44,John Mateer,QB,Oklahoma,"6'1""",224,--,--,--,--,--,--,--,--,--,--,--,--,/players/john-mateer.html
+45,Bray Hubbard,S,Alabama,"6'2""",213,--,--,--,--,--,--,--,--,--,--,--,--,/players/bray-hubbard.html
+46,Eric Singleton Jr.,WR,Florida,"5'10""",180,--,--,--,--,--,--,--,--,--,--,--,--,/players/eric-singleton-jr.html
+47,Jayden Maiava,QB,USC,"6'4""",230,--,--,--,--,--,--,--,--,--,--,--,--,/players/jayden-maiava.html
+48,Mark Fletcher,RB,Miami (FL),"6'2""",225,--,--,--,--,--,--,--,--,--,--,--,--,/players/mark-fletcher.html
+49,Cayden Green,OT,Missouri,"6'5""",324,--,--,--,--,--,--,--,--,--,--,--,--,/players/cayden-green.html
+50,Anthony Smith,DL,Minnesota,"6'6""",285,--,--,--,--,--,--,--,--,--,--,--,--,/players/anthony-smith.html

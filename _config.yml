@@ -1,0 +1,8 @@
+title: Findley Analytics
+description: Sports Analytics Portfolio
+baseurl: "/sports-analytics"
+url: "https://ttfindley.github.io"
+markdown: kramdown
+collections:
+  players:
+    output: true

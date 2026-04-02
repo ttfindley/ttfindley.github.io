@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <nav>
+    <a href="/" class="nav-logo">
+      <img src="/assets/images/findley-analytics-logo.svg" alt="Findley Analytics" style="height:56px;display:block;">
+    </a>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/nfl.html">Football</a></li>
+      <li><a href="/mma.html">MMA</a></li>
+      <li><a href="/research.html">Research</a></li>
+      <li><a href="/about.html">About</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <div class="hero" style="padding:48px 40px 40px">
+  <div class="hero-label">Academic &amp; Independent Work</div>
+  <h1 class="hero-title" style="font-size:36px">Research</h1>
+  <p class="hero-sub">A collection of coursework and independent projects spanning sports analytics, statistical modeling, simulation, and data visualization.</p>
+</div>
+
+<div class="section">
+  <div class="section-header">
+    <span class="section-tag">Coursework</span>
+    <span class="section-title">Projects</span>
+  </div>
+  <div class="cards-grid" style="grid-template-columns:repeat(2,1fr)">
+
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
+        <div class="card-sport" style="color:#0d6b3b">Simulation</div>
+        <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;background:#f8faf8;border:1px solid #e2ece2;padding:2px 8px">R</span>
+      </div>
+      <div class="card-title">Yahtzee Score Card Strategy Simulator</div>
+      <div class="card-desc">Monte Carlo simulation exploring whether prioritizing the top half vs. bottom half of a Yahtzee scorecard produces better expected outcomes across thousands of simulated games.</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px">
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Monte Carlo</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Simulation</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Game Theory</span>
+      </div>
+      <div style="display:flex;gap:12px;border-top:1px solid #e2ece2;padding-top:16px">
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#0d6b3b;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="https://github.com/ttfindley/gt-yahtzee-simulator" target="_blank">↗ GitHub</a>
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#b87d0d;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="/assets/files/yahtzee-report.pdf" target="_blank">↓ Report PDF</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
+        <div class="card-sport" style="color:#0d6b3b">Sports Analytics</div>
+        <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;background:#f8faf8;border:1px solid #e2ece2;padding:2px 8px">Python + R</span>
+      </div>
+      <div class="card-title">Impact of Weather on NFL Performance</div>
+      <div class="card-desc">Analyzed how weather conditions affect NFL performance metrics across three stakeholder lenses — coaches, fantasy football players, and sports bettors — using feature selection, random forest, and regression models.</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px">
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Random Forest</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Regression</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Feature Selection</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Visualization</span>
+      </div>
+      <div style="display:flex;gap:12px;border-top:1px solid #e2ece2;padding-top:16px">
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#0d6b3b;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="https://github.com/ttfindley/gt-nfl-weather-impact" target="_blank">↗ GitHub</a>
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#b87d0d;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="/assets/files/nfl-weather-report.pdf" target="_blank">↓ Report PDF</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
+        <div class="card-sport" style="color:#0d6b3b">Regression Analysis</div>
+        <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;background:#f8faf8;border:1px solid #e2ece2;padding:2px 8px">Python + R</span>
+      </div>
+      <div class="card-title">Austin Housing Market Regression</div>
+      <div class="card-desc">Built and compared linear regression, random forest, and gradient boosting models to assess home values across the Austin area, with supporting data visualizations and model validation.</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px">
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Linear Regression</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Random Forest</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Gradient Boost</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Visualization</span>
+      </div>
+      <div style="display:flex;gap:12px;border-top:1px solid #e2ece2;padding-top:16px">
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#0d6b3b;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="https://github.com/ttfindley/gt-austin-housing-regression-project" target="_blank">↗ GitHub</a>
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#b87d0d;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="/assets/files/austin-housing-report.pdf" target="_blank">↓ Report PDF</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:14px">
+        <div class="card-sport" style="color:#0d6b3b">Analytics</div>
+        <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;background:#f8faf8;border:1px solid #e2ece2;padding:2px 8px">Report Only</span>
+      </div>
+      <div class="card-title">The Indiana Department of Corrections and Reduction of Violent Attacks</div>
+      <div class="card-desc">Proposed an analytical framework to help the Indiana Department of Corrections reduce a surge in inmate attacks on staff. Identified limitations in the existing tool and proposed a multi-model solution to more accurately predict and communicate violence risk.</div>
+      <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:20px">
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Logistic Regression</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Survival Analysis</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Community Detection</span>
+        <span style="font-family:'DM Mono',monospace;font-size:9px;color:#4a5e4a;background:#f0f7f0;border:1px solid #d0e8d8;padding:3px 10px;text-transform:uppercase;letter-spacing:0.06em">Risk Assessment</span>
+      </div>
+      <div style="display:flex;gap:12px;border-top:1px solid #e2ece2;padding-top:16px">
+        <a style="font-family:'DM Mono',monospace;font-size:10px;color:#b87d0d;text-decoration:none;letter-spacing:0.06em;text-transform:uppercase" href="/assets/files/indiana-doc-attacks-report.pdf" target="_blank">↓ Report PDF</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </div>
+  <footer>
+    <span class="footer-name">© 2026 Travis Findley</span>
+    <span class="footer-name">Built with Jekyll</span>
+  </footer>
+</body>
+</html>
