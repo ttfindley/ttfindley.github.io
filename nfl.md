@@ -38,9 +38,9 @@ title: Football
       <div class="card-desc">Analytical previews for every Big Ten program.</div>
     </div>
     <div class="card" style="opacity:0.5">
-      <div class="card-sport nfl">Coming Soon</div>
-      <div class="card-title">Project TBD</div>
-      <div class="card-desc">More football analytics work coming soon.</div>
+      <div class="card-sport nfl">Pro Football</div>
+      <div class="card-title">Detoriation of Offensive Line Play</div>
+      <div class="card-desc">Has offensive line play deteriorated in the last 20 years? A data centric look</div>
     </div>
   </div>
 </div>
