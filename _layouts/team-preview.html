@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+  <style>
+    :root {
+      --team: {{ page.team_color }};
+      --team-dark: {{ page.team_color_dark }};
+      --team-light: {{ page.team_color_light }};
+    }
+    .team-header{background:#fff;border-bottom:4px solid var(--team);padding:32px 40px}
+    .header-top{display:grid;grid-template-columns:88px 1fr auto;gap:24px;align-items:center;margin-bottom:0}
+    .team-logo{width:88px;height:88px;background:var(--team);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#fff;flex-shrink:0;letter-spacing:0.02em;text-align:center}
+    .team-name-text{font-family:'Space Grotesk',sans-serif;font-size:36px;font-weight:700;color:#1a1a1a;line-height:1}
+    .team-conf-text{font-family:'DM Mono',monospace;font-size:11px;color:#888;letter-spacing:0.1em;text-transform:uppercase;margin-top:6px}
+    .team-stats{display:flex;gap:0;flex-shrink:0}
+    .tstat{padding:12px 22px;text-align:center;border-left:1px solid #f0f0f0}
+    .tstat-val{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:var(--team)}
+    .tstat-label{font-family:'DM Mono',monospace;font-size:9px;color:#999;letter-spacing:0.08em;text-transform:uppercase;margin-top:3px}
+    .header-bottom{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#f0f0f0;border-top:1px solid #f0f0f0;margin-top:24px}
+    .staff-cell{background:#fff;padding:14px 20px}
+    .staff-role{font-family:'DM Mono',monospace;font-size:9px;color:#999;letter-spacing:0.08em;text-transform:uppercase;margin-bottom:4px}
+    .staff-name{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:#1a1a1a}
+    .preview-body{padding:28px 40px;display:grid;grid-template-columns:1fr 1fr;gap:20px;background:#f8f8f8}
+    .preview-full{grid-column:1/-1}
+    .preview-card{background:#fff;border:1px solid #eee;padding:20px}
+    .preview-head{font-family:'DM Mono',monospace;font-size:9px;color:var(--team);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+    .preview-head::after{content:'';flex:1;height:1px;background:#f0f0f0}
+    .tag-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .tag-pill{font-family:'DM Mono',monospace;font-size:9px;color:var(--team-dark);background:var(--team-light);border:1px solid var(--team);padding:3px 10px;letter-spacing:0.06em;text-transform:uppercase;opacity:0.8}
+    .preview-text{font-size:13px;color:#555;line-height:1.75}
+    .preview-text p{margin-bottom:12px}
+    .preview-text p:last-child{margin-bottom:0}
+    .field{width:100%;background:#2d5a1b;position:relative;overflow:hidden;border:4px solid #fff;height:680px}
+    .yard-line{position:absolute;left:0;right:0;border-top:1.5px solid rgba(255,255,255,0.3)}
+    .yard-label-l{position:absolute;left:5%;font-family:'DM Mono',monospace;font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);transform:translateY(-50%)}
+    .yard-label-r{position:absolute;right:5%;font-family:'DM Mono',monospace;font-size:12px;font-weight:500;color:rgba(255,255,255,0.6);transform:translateY(-50%)}
+    .scrimmage{position:absolute;left:0;right:0;border-top:3px dashed rgba(255,220,0,0.9)}
+    .unit-pill{position:absolute;left:50%;transform:translateX(-50%);font-family:'Space Grotesk',sans-serif;font-size:11px;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;white-space:nowrap;padding:4px 14px;background:#fff}
+    .unit-pill.def{color:#1a1a1a;top:3%}
+    .unit-pill.off{color:var(--team);bottom:3%}
+    .pdot{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:3px}
+    .pdot .circle{width:38px;height:38px;border-radius:50%;border:2.5px solid rgba(255,255,255,0.95);display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk',sans-serif;font-size:8px;font-weight:700;color:#fff;text-align:center;line-height:1.1}
+    .pdot .circle.off{background:var(--team)}
+    .pdot .circle.def{background:#1a1a1a}
+    .pdot .name{font-family:'DM Mono',monospace;font-size:8.5px;color:#fff;text-align:center;background:rgba(0,0,0,0.65);padding:2px 6px;white-space:nowrap}
+    .field-legend{display:flex;gap:28px;margin-top:14px;justify-content:center}
+    .leg-item{display:flex;align-items:center;gap:6px;font-family:'DM Mono',monospace;font-size:10px;color:#888}
+    .leg-dot{width:12px;height:12px;border-radius:50%}
+    .recap-list{list-style:none;display:flex;flex-direction:column;gap:10px}
+    .recap-list li{font-size:13px;color:#2d2d2d;line-height:1.6;padding-left:16px;position:relative}
+    .recap-list li::before{content:'';position:absolute;left:0;top:7px;width:5px;height:5px;background:var(--team);border-radius:50%}
+    .stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .stat-box{background:#f8f8f8;border:1px solid #eee;padding:12px 14px}
+    .stat-val{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:#1a1a1a}
+    .stat-label{font-family:'DM Mono',monospace;font-size:9px;color:#999;letter-spacing:0.08em;text-transform:uppercase;margin-top:3px}
+    .stat-context{font-size:11px;color:var(--team);margin-top:2px}
+    .schedule-list{display:flex;flex-direction:column;gap:0}
+    .schedule-row{display:flex;align-items:center;justify-content:space-between;padding:8px 0;border-bottom:1px solid #f5f5f5;font-size:13px}
+    .schedule-row:last-child{border-bottom:none}
+    .game-opp{color:#1a1a1a}
+    .game-note{font-family:'DM Mono',monospace;font-size:9px;color:#999;letter-spacing:0.06em;text-transform:uppercase}
+    .game-result{font-family:'DM Mono',monospace;font-size:10px;padding:2px 8px;letter-spacing:0.04em}
+    .game-result.key{color:var(--team);background:var(--team-light);border:1px solid var(--team-border, #eee)}
+    .watch-list{display:flex;flex-direction:column;gap:12px}
+    .watch-player{padding:12px 14px;background:#f8f8f8;border-left:3px solid var(--team)}
+    .watch-name{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:#1a1a1a;margin-bottom:2px}
+    .watch-pos{font-family:'DM Mono',monospace;font-size:9px;color:var(--team);letter-spacing:0.08em;text-transform:uppercase;margin-bottom:6px}
+    .watch-desc{font-size:12px;color:#666;line-height:1.55}
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="{{ '/' | relative_url }}" class="nav-logo">
+      <img src="{{ '/assets/images/findley-analytics-logo.svg' | relative_url }}" alt="Findley Analytics" style="height:56px;display:block;">
+    </a>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/nfl.html' | relative_url }}">Football</a></li>
+      <li><a href="{{ '/mma.html' | relative_url }}">MMA</a></li>
+      <li><a href="{{ '/research.html' | relative_url }}">Research</a></li>
+      <li><a href="{{ '/about.html' | relative_url }}">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="team-header">
+    <div class="header-top">
+      <div class="team-logo">{{ page.team_abbr }}</div>
+      <div>
+        <div class="team-name-text">{{ page.team_name }}</div>
+        <div class="team-conf-text">{{ page.team_conf }}</div>
+      </div>
+      <div class="team-stats">
+        <div class="tstat"><div class="tstat-val">{{ page.preseason_rank }}</div><div class="tstat-label">Preseason</div></div>
+        <div class="tstat"><div class="tstat-val">{{ page.record_2024 }}</div><div class="tstat-label">2025 Record</div></div>
+        <div class="tstat"><div class="tstat-val">{{ page.conf_record_2024 }}</div><div class="tstat-label">2025 Conf Record</div></div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <div class="staff-cell"><div class="staff-role">Head Coach</div><div class="staff-name">{{ page.head_coach }}</div></div>
+      <div class="staff-cell"><div class="staff-role">Off. Coordinator</div><div class="staff-name">{{ page.off_coordinator }}</div></div>
+      <div class="staff-cell"><div class="staff-role">Def. Coordinator</div><div class="staff-name">{{ page.def_coordinator }}</div></div>
+      <div class="staff-cell"><div class="staff-role">ST Coordinator</div><div class="staff-name">{{ page.st_coordinator }}</div></div>
+    </div>
+  </div>
+
+  <div class="preview-body">
+    {{ content }}
+  </div>
+
+  <footer>
+    <span class="footer-name">© 2026 Travis Findley — Sports Analytics</span>
+    <span class="footer-name">Built with Jekyll</span>
+  </footer>
+</body>
+</html>

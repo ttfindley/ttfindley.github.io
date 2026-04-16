@@ -23,6 +23,14 @@ title: Football
         <div class="card-arrow">→</div>
       </div>
     </a>
+    <a href="/big-ten-preview.html" style="text-decoration:none;">
+      <div class="card">
+        <div class="card-sport nfl">College Football</div>
+        <div class="card-title">2026 Big Ten Conference Preview</div>
+        <div class="card-desc">Full conference breakdown — 2025 recap, offseason storylines, tier rankings, and links to all 18 team previews.</div>
+        <div class="card-arrow">→</div>
+     </div>
+    </a>
   </div>
 </div>
 
@@ -32,11 +40,6 @@ title: Football
     <span class="section-title">In Progress</span>
   </div>
   <div class="cards-grid">
-    <div class="card" style="opacity:0.5">
-      <div class="card-sport nfl">College Football</div>
-      <div class="card-title">2026 Big Ten Football Preview</div>
-      <div class="card-desc">Analytical previews for every Big Ten program.</div>
-    </div>
     <div class="card" style="opacity:0.5">
       <div class="card-sport nfl">Pro Football</div>
       <div class="card-title">Detoriation of Offensive Line Play</div>

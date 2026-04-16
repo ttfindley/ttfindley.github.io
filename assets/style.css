@@ -109,3 +109,7 @@ a{color:#0d6b3b;text-decoration:none}
 .photo-initials{font-family:'Space Grotesk',sans-serif;font-size:36px;font-weight:700;color:#0d6b3b;opacity:0.4}
 .rank-block{text-align:center;width:100%}
 .rank-num{font-size:40px !important}
+.preview-text{font-size:13px;color:#4a5e4a;line-height:1.75}
+.preview-text p{margin-bottom:14px}
+.preview-text p:last-child{margin-bottom:0}
+.preview-text strong{font-weight:600;color:#0f1a0f}
