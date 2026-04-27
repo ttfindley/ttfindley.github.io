@@ -1,31 +1,31 @@
 ---
 layout: default
-title: Jeremiah Smith
+title: Eric Singleton Jr.
 ---
 
 <div class="profile-header">
   <div class="left-col">
     <div class="player-photo">
-      <img src="/assets/images/players/jeremiah-smith.png" alt="Jeremiah Smith">
+      <img src="/assets/images/players/eric-singleton-jr.png" alt="Eric Singleton Jr.">
     </div>
     <div class="rank-block">
       <div class="rank-badge">Overall Rank</div>
-      <div class="rank-num">#3</div>
+      <div class="rank-num">#46</div>
     </div>
   </div>
 
   <div class="player-info">
     <a class="back-link" href="/big_board.html">← Big Board</a>
-    <h1 class="player-name">Jeremiah Smith</h1>
+    <h1 class="player-name">Eric Singleton Jr.</h1>
     <div class="player-meta">
       <span class="pos-badge">WR</span>
-      <span class="tag">Ohio State</span>
+      <span class="tag">Florida</span>
     </div>
     <div class="measurables">
-      <div class="mbox"><span class="mval">6' 3"</span><span class="mlabel">Height</span></div>
-      <div class="mbox"><span class="mval">223 lbs.</span><span class="mlabel">Weight</span></div>
+      <div class="mbox"><span class="mval">5' 10"</span><span class="mlabel">Height</span></div>
+      <div class="mbox"><span class="mval">180 lbs.</span><span class="mlabel">Weight</span></div>
       <div class="mbox"><span class="mval">--</span><span class="mlabel">Age</span></div>
-      <div class="mbox"><span class="mval">Rd 1</span><span class="mlabel">Projection</span></div>
+      <div class="mbox"><span class="mval">Rd 2</span><span class="mlabel">Projection</span></div>
     </div>
   </div>
   <div class="grade-col">
@@ -45,9 +45,10 @@ title: Jeremiah Smith
         <tr><th>Year</th><th>School</th><th>G</th><th>Rec</th><th>Yards</th><th>Y/R</th><th>TD</th><th>Y/G</th></tr>
       </thead>
       <tbody>
-        <tr><td>2024</td><td>Ohio State</td><td>16</td><td>76</td><td>1315</td><td>17.3</td><td>15</td><td>82.2</td></tr>
-        <tr><td>2025</td><td>Ohio State</td><td>13</td><td>87</td><td>1243</td><td>14.3</td><td>12</td><td>95.6</td></tr>
-        <tr><td colspan="2"><strong>Career</strong></td><td>29</td><td>163</td><td>2558</td><td>15.7</td><td>27</td><td>88.2</td></tr>
+        <tr><td>2023</td><td>Georgia Tech</td><td>12</td><td>48</td><td>714</td><td>14.9</td><td>6</td><td>59.5</td></tr>
+        <tr><td>2024</td><td>Georgia Tech</td><td>12</td><td>56</td><td>754</td><td>13.5</td><td>3</td><td>62.8</td></tr>
+        <tr><td>2025</td><td>Auburn</td><td>12</td><td>58</td><td>534</td><td>9.2</td><td>3</td><td>44.5</td></tr>
+        <tr><td colspan="2"><strong>Career</strong></td><td>36</td><td>162</td><td>2002</td><td>12.4</td><td>12</td><td>55.6</td></tr>
       </tbody>
     </table>
   </div>
@@ -106,7 +107,7 @@ title: Jeremiah Smith
     <div class="shead">Draft Projection</div>
     <div class="proj-banner">
       <span class="proj-label">Projected Round</span>
-      <span class="proj-val">Round 1</span>
+      <span class="proj-val">Round 2</span>
     </div>
     <p style="font-size:13px;color:#64748b;line-height:1.6">Your projection notes here.</p>
   </div>

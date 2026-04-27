@@ -28,11 +28,11 @@ title: About
     <div style="display:flex;flex-direction:column;gap:20px">
       <div style="background:#fff;border:1px solid #e2ece2;padding:28px">
         <div class="shead" style="margin-bottom:16px">Bio</div>
-        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">Travis Findley is a data professional with 14 years of experience in e-commerce, currently working as an SQL Developer. His day-to-day work is built around SQL and database management.</p>
-        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">Alongside his technical career, he has built a focused background in sports analytics — contributing to Pro Football Focus and ClevAnalytics in data collection and research roles. Travis also enjoys independent analysis, using R and Python to clean data, build models and produce research across football and combat sports.</p>
-        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">He holds a Bachelor of Science in Business Administration, Management from Saint Joseph's University and a Master of Science in Analytics from the Georgia Institute of Technology.</p>
-        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">This site is where he publishes independent analysis focused on football, combat sports and data-driven research projects.</p>
-        <p style="font-size:14px;color:#2d3e2d;line-height:1.85">Outside of work and analytics, Travis trains jiu-jitsu, lifts weights, runs, and spends time with family and friends.</p>
+        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">Welcome! I am a data professional with 14 years of experience in e-commerce, currently working as a Database Engineer. The bulk of my work is built around SQL and database management.</p>
+        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">Alongside my technical career, I have built a focused background in sports analytics — contributing to Pro Football Focus and ClevAnalytics in data collection and research roles. I also enjoy independent analysis, using R and Python to clean data, build models and produce research across football and combat sports.</p>
+        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">I holds a Bachelor of Science in Business Administration, Management from Saint Joseph's University and a Master of Science in Analytics from the Georgia Institute of Technology.</p>
+        <p style="font-size:14px;color:#2d3e2d;line-height:1.85;margin-bottom:16px">This site is where I publish my independent analysis focused on football, combat sports and data-driven research projects.</p>
+        <p style="font-size:14px;color:#2d3e2d;line-height:1.85">Outside of work and analytics, I enjoy training jiu-jitsu, lifting weights, running, and spending time with family and friends.</p>
       </div>
 
       <div style="background:#fff;border:1px solid #e2ece2;padding:28px">
@@ -41,6 +41,10 @@ title: About
           <div style="display:flex;align-items:center;gap:16px">
             <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;letter-spacing:0.08em;text-transform:uppercase;width:80px">Email</span>
             <a href="mailto:tt.findley@gmail.com" style="font-family:'DM Mono',monospace;font-size:13px;color:#0d6b3b">tt.findley@gmail.com</a>
+          </div>
+          <div style="display:flex;align-items:center;gap:16px">
+            <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;letter-spacing:0.08em;text-transform:uppercase;width:80px">Resume/CV</span>
+            <a href="/assets/files/travis-findley-resume.pdf" target="_blank" style="font-family:'DM Mono',monospace;font-size:13px;color:#0d6b3b">View Resume</a>
           </div>
           <div style="display:flex;align-items:center;gap:16px">
             <span style="font-family:'DM Mono',monospace;font-size:10px;color:#8a9e8a;letter-spacing:0.08em;text-transform:uppercase;width:80px">LinkedIn</span>

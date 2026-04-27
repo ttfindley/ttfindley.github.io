@@ -45,9 +45,9 @@ title: Mario Craver
         <tr><th>Year</th><th>School</th><th>G</th><th>Rec</th><th>Yards</th><th>Y/R</th><th>TD</th><th>Y/G</th></tr>
       </thead>
       <tbody>
-        <tr><td>2024</td><td>Ohio State</td><td>16</td><td>76</td><td>1315</td><td>17.3</td><td>15</td><td>82.2</td></tr>
-        <tr><td>2025</td><td>Ohio State</td><td>13</td><td>87</td><td>1243</td><td>14.3</td><td>12</td><td>95.6</td></tr>
-        <tr><td colspan="2"><strong>Career</strong></td><td>29</td><td>163</td><td>2558</td><td>15.7</td><td>27</td><td>88.2</td></tr>
+        <tr><td>2024</td><td>Mississippi State</td><td>9</td><td>17</td><td>368</td><td>21.6</td><td>3</td><td>40.9</td></tr>
+        <tr><td>2025</td><td>Texas A&M</td><td>12</td><td>59</td><td>917</td><td>15.5</td><td>4</td><td>76.4</td></tr>
+        <tr><td colspan="2"><strong>Career</strong></td><td>21</td><td>76</td><td>1285</td><td>16.9</td><td>7</td><td>61.2</td></tr>
       </tbody>
     </table>
   </div>
@@ -106,7 +106,7 @@ title: Mario Craver
     <div class="shead">Draft Projection</div>
     <div class="proj-banner">
       <span class="proj-label">Projected Round</span>
-      <span class="proj-val">Round 1</span>
+      <span class="proj-val">Round 2</span>
     </div>
     <p style="font-size:13px;color:#64748b;line-height:1.6">Your projection notes here.</p>
   </div>
